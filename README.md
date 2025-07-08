@@ -142,7 +142,7 @@ public sealed partial class MainPage : Page
 ### React Application
 
 ```bash
-npm run build
+npm run dev
 ```
 
 This creates a production build in the `dist` directory.
@@ -161,7 +161,3 @@ For a production UWP app:
 - **PDF not displaying**: Check if the PDF was successfully uploaded to the server's `uploads` folder.
 - **WebView2 errors**: Make sure the WebView2 runtime is installed on your development machine.
 - **CORS issues**: The server has CORS enabled, but check if additional headers are needed.
-
-## License
-
-[MIT](LICENSE)
